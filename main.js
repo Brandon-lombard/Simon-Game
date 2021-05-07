@@ -128,6 +128,9 @@ $(document).on("keydown", function () {
   };
 });
 
+//Click Start
+//
+
 $(document).on("click", function () {
   if(!started) {
     $(".level-item").text(`Level ${level}`);
