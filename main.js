@@ -128,6 +128,14 @@ $(document).on("keydown", function () {
   };
 });
 
+$(document).on("click", function () {
+  if(!started) {
+    $(".level-item").text(`Level ${level}`);
+    nextSequence();
+    started = true;
+  };
+});
+
 
 //Animation
 //
